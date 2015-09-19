@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome to my website!"
+date:   2015-09-19 23:07:00
+categories: personal
+---
+This is the first post. Hello World! Let's see what's going to happen with this site...
