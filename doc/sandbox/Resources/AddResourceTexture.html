@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>EngineDoc: AddResourceTexture</title>
+		<link rel="stylesheet" type="text/css" href="..\..\style.css">
+	</head>
+	<body style="width: 95%">
+		<table class="page_table">
+			<tr style="height: 80px">
+				<th colspan="2">EngineDoc</th>
+			</tr>
+			<tr>
+				<td style="width: 15%">
+					<ul>
+						<li><a href="..\index.html">..</a></li>
+						<li><a href="AddResourceLoader.html">AddResourceLoader</a></li>
+						<li><a href="AddResourceMesh.html">AddResourceMesh</a></li>
+						<li><a href="AddResourceTexture.html">AddResourceTexture</a></li>
+						<li><a href="GetNumberOfTextures.html">GetNumberOfTextures</a></li>
+						<li><a href="GetResource.html">GetResource</a></li>
+						<li><a href="GetResourceFileName.html">GetResourceFileName</a></li>
+						<li><a href="GetResourceManager.html">GetResourceManager</a></li>
+						<li><a href="IfResourceExists.html">IfResourceExists</a></li>
+						<li><a href="RemoveResource.html">RemoveResource</a></li>
+						<li><a href="SetNumberOfTextures.html">SetNumberOfTextures</a></li>
+						<li><a href="SetResourceId.html">SetResourceId</a></li>
+					</ul>
+				</td>
+				<td style="width: 85%">
+					<table class="function_table">
+						<tr>
+							<th>AddResourceTexture</th>
+						</tr>
+						<tr>
+							<td>
+								</br>
+								&emsp;Creates a new texture and adds it to the resources managed by the resource manager.</br></br>
+								<h3>Syntax</h3>
+								<div id="syntax">&emsp;bool AddResourceTexture(</br>
+							    &emsp;&emsp;std::string id,</br>
+							    &emsp;&emsp;std::string fileName,</br>
+							    &emsp;&emsp;std::string fileType,</br>
+							    &emsp;&emsp;Renderer* renderer</br>
+								&emsp;);</div></br>
+								</br>
+								<h3>Parameters</h3>
+								<div style="font-style: italic">&emsp;std::string id</div>
+								&emsp;&emsp;A key for the new resource texture.</br>
+								<div style="font-style: italic">&emsp;std::string fileName</div>
+								&emsp;&emsp;The file location and name used to create the texture.</br>
+								<div style="font-style: italic">&emsp;std::string fileType</div>
+								&emsp;&emsp;The type of file to be used to create the texture.</br>
+								<div style="font-style: italic">&emsp;Renderer* renderer</div>
+								&emsp;&emsp;A pointer to the renderer to be used to create the new texture.</br></br>
+								<h3>Return value</h3>
+								&emsp;This function returns true if the texture is created succesfully.
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

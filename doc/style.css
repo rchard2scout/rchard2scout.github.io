@@ -1,0 +1,46 @@
+td {
+	vertical-align : top;
+}
+
+.page_table{
+	width : 100%;
+	text-align : left;
+}
+
+.page_table th{
+	font-family : Verdana, sans-serif;
+	font-size : 20pt;
+	color : black;
+	font-weight : normal;
+}
+
+.function_table{
+	width : 100%;
+	font-family : Verdana, sans-serif;
+	font-size : 10pt;
+	color : #696969;
+	text-align : left;
+}
+
+.function_table th{
+	height : 60px;
+	font-size : 24pt;
+	color : #494949;
+	font-weight : normal;
+}
+
+.function_table h3{
+	color : #606060;
+}
+
+#syntax{
+	font-family : Courier;
+	font-size : 12pt;
+	color : black;
+}
+
+ul{
+	font-family : Verdana, sans-serif;
+	font-size : 10pt;
+	color : #696969;
+}
